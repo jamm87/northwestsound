@@ -1,0 +1,77 @@
+@font-face{
+    font-family: "futura-medium";
+    src: url("../fonts/Futura-Medium-01.ttf")
+}
+@font-face{
+    font-family: "futura-black";
+    src: url("../fonts/Futura-CondensedMedium-03.ttf")
+}
+h1{
+    font-family: "miriam-bold";
+    font-size: 40px;
+    color:#e75116;
+}
+h2{
+    font-family: "miriam-bold";
+    font-size: 40px;
+    color:#e75116;
+}
+p{
+    padding: 5px;
+    background-color: yellow;
+    font-family: "futura-medium";
+    font-size: 20px;
+    color:black;
+}
+
+body{
+    background-image: url(../img/background.png);
+    background-position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+main img{
+    
+    max-height: 395px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+main nav{
+    text-align: center;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+nav p{
+    margin:10px;
+}
+
+main nav img{
+    margin: auto;
+}
+iframe{
+    border: 0;
+}
+footer{
+    text-align: center;
+}
+
+main .text{
+
+    
+}
